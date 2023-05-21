@@ -8,8 +8,8 @@ Aplicação de recordação de memórias, onde o usuário poderá adicionar à u
 
 ---
 
-🛠 Technologies
-This project was development with the technologies:
+## 🛠 Tecnologias
+Este projeto foi desenvolvido com as tecnologias
 
 ReactJS
 NextJS(13.4)

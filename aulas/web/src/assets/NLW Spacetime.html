@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./NLW Spacetime_files/layout.css" data-precedence="next_static/css/app/layout.css"><title>NLW Spacetime</title><meta name="description" content="Uma cápsula do tempo construida com React, Next.js, TailwindCSS e Typescript"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="http://localhost:3000/icon.png?762e6fd85d5f5001" type="image/png" sizes="2000x2000"><script src="./NLW Spacetime_files/polyfills.js.baixados" nomodule=""></script><meta name="adrenaline_neste" content="UA-23288050-23"><meta name="adrenaline_fadam" content="UA-23288050-14"><style type="text/css">.vue-notification-group{display:block;position:fixed;z-index:5000}.vue-notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification-title{font-weight:600}.vue-notification-template{background:#fff}.vue-notification,.vue-notification-template{display:block;box-sizing:border-box;text-align:left}.vue-notification{font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187fe7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter,.vn-fade-leave-to{opacity:0}</style></head><body class="__variable_7e91eb __variable_5a411c bg-gray-900 font-sans text-gray-100" cz-shortcut-listen="true"><main class="grid min-h-screen grid-cols-2"><div class="relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/background-stars.svg)] bg-cover px-28 py-16"><div class="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full"></div><div class="absolute bottom-0 right-2 top-0 w-2 bg-stripes"></div><a href="http://localhost:3000/#" class="flex items-center gap-3 text-left transition-colors hover:text-gray-50"><div class="top-0 flex h-10 w-10 items-center justify-center rounded-full bg-gray-400"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="20" fill="#56565A"></rect><path d="M28.0407 26.5625C26.8508 24.5055 25.0172 23.0305 22.8774 22.3312C23.9359 21.7011 24.7582 20.741 25.2182 19.5983C25.6782 18.4555 25.7503 17.1934 25.4235 16.0057C25.0968 14.818 24.3892 13.7705 23.4094 13.0238C22.4296 12.2772 21.2319 11.8729 20.0001 11.8729C18.7682 11.8729 17.5705 12.2772 16.5907 13.0238C15.6109 13.7705 14.9033 14.818 14.5766 16.0057C14.2498 17.1934 14.322 18.4555 14.7819 19.5983C15.2419 20.741 16.0643 21.7011 17.1227 22.3312C14.9829 23.0297 13.1493 24.5047 11.9594 26.5625C11.9158 26.6336 11.8869 26.7128 11.8743 26.7953C11.8618 26.8778 11.8659 26.962 11.8864 27.0429C11.9069 27.1238 11.9434 27.1998 11.9938 27.2663C12.0442 27.3329 12.1073 27.3887 12.1796 27.4304C12.2519 27.4722 12.3318 27.499 12.4146 27.5094C12.4974 27.5198 12.5815 27.5134 12.6618 27.4908C12.7421 27.4682 12.8171 27.4296 12.8823 27.3776C12.9475 27.3255 13.0016 27.2608 13.0415 27.1875C14.5133 24.6437 17.1149 23.125 20.0001 23.125C22.8852 23.125 25.4868 24.6437 26.9587 27.1875C26.9985 27.2608 27.0526 27.3255 27.1178 27.3776C27.183 27.4296 27.258 27.4682 27.3383 27.4908C27.4187 27.5134 27.5027 27.5198 27.5855 27.5094C27.6683 27.499 27.7482 27.4722 27.8205 27.4304C27.8928 27.3887 27.956 27.3329 28.0063 27.2663C28.0567 27.1998 28.0932 27.1238 28.1137 27.0429C28.1342 26.962 28.1383 26.8778 28.1258 26.7953C28.1133 26.7128 28.0843 26.6336 28.0407 26.5625ZM15.6251 17.5C15.6251 16.6347 15.8816 15.7888 16.3624 15.0694C16.8431 14.3499 17.5264 13.7891 18.3258 13.458C19.1252 13.1269 20.0049 13.0402 20.8536 13.2091C21.7022 13.3779 22.4818 13.7945 23.0937 14.4064C23.7055 15.0183 24.1222 15.7978 24.291 16.6465C24.4598 17.4951 24.3732 18.3748 24.042 19.1742C23.7109 19.9737 23.1501 20.6569 22.4307 21.1377C21.7112 21.6184 20.8654 21.875 20.0001 21.875C18.8401 21.8737 17.728 21.4124 16.9078 20.5922C16.0876 19.772 15.6263 18.6599 15.6251 17.5Z" fill="#2C2C31"></path></svg></div><p class="max-[140px] text-sm leading-snug"><span class="underline">Crie sua conta e salve suas memórias!</span></p></a><div class="space-y-5"><img alt="SpaceTime" loading="lazy" width="161" height="48" decoding="async" data-nimg="1" style="color:transparent" src="./NLW Spacetime_files/logo-spacetime.889c2ce4.svg"><div class="max-w-[420px] space-y-1"><h1 class="mt-5 text-[39px] font-bold leading-tight text-gray-50">Sua cápsula do tempo</h1><p class="mt-1 text-lg leading-relaxed">Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!</p></div><a href="http://localhost:3000/#" class="inline-block">CADASTRAR LEMBRANÇA</a><div id="extwaiokist" style="display:none" v="fcoon" q="7a87e0fd" c="523.9" i="530" u="17.63" s="05152315" sg="svr_04262315-ga_05152315-bai_04242318" d="1" w="false" e="" a="2" m="BMe=" vn="3gtra"><div id="extwaigglbit" style="display:none" v="fcoon" q="7a87e0fd" c="523.9" i="530" u="17.63" s="05152315" sg="svr_04262315-ga_05152315-bai_04242318" d="1" w="false" e="" a="2" m="BMe="></div></div></div></div><div class="flex flex-col bg-[url(../assets/background-stars.svg)] bg-cover p-16"><div class="flex flex-1 items-center justify-center"><p class="w-[360px] text-center leading-relaxed">Você ainda não registrou nenhuma lembrança, comece a<!-- --> <a href="http://localhost:3000/" class="underline hover:text-gray-50">criar agora</a>!</p></div></div></main><script src="./NLW Spacetime_files/webpack.js.baixados" async=""></script><script src="./NLW Spacetime_files/main-app.js.baixados" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1684320870615\",{\"as\":\"style\"}]\n0:\"$L2\"\n"])</script><script>self.__next_f.push([1,"3:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/app-router.js\",\"chunks\":[\"webpack:static/chunks/webpack.js\"],\"name\":\"\",\"async\":false}\n5:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/error-boundary.js\",\"chunks\":[\"webpack:static/chunks/webpack.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/layout-router.js\",\"chunks\":[\"app-client-internals:static/chunks/app-client-internals.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":\"(app-client)/"])</script><script>self.__next_f.push([1,"./node_modules/next/dist/client/components/render-from-template-context.js\",\"chunks\":[\"app-client-internals:static/chunks/app-client-internals.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":\"(app-client)/./node_modules/next/dist/client/image.js\",\"chunks\":[\"app/page:static/chunks/app/page.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"2:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/app/layout.css?v=1684320870615\",\"precedence\":\"next_static/css/app/layout.css\"}]],[\"$\",\"$L3\",null,{\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[\"$L4\",null],\"globalErrorComponent\":\"$5\",\"notFound\":[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_7e91eb __variable_5a411c bg-gray-900 font-sans text-gray-100\",\"children\":[\"$undefined\",[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]]}]}],\"asNotFound\":false,\"children\":[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_7e91eb __variable_5a411c bg-gray-900 font-sans text-gray-100\",\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[[\"$\",\"main\",null,{\"className\":\"grid min-h-screen grid-cols-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/background-stars.svg)] bg-cover px-28 py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full\"}],[\"$\",\"div\",null,{\"className\":\"absolute bottom-0 right-2 top-0 w-2 bg-stripes\"}],[\"$\",\"a\",null,{\"href\":\"#\",\"className\":\"flex items-center gap-3 text-left transition-colors hover:text-gray-50\",\"children\":[[\"$\",\"div\",null,{\"className\":\"top-0 flex h-10 w-10 items-center justify-center rounded-full bg-gray-400\",\"children\":[\"$\",\"svg\",null,{\"width\":\"40\",\"height\":\"40\",\"viewBox\":\"0 0 40 40\",\"fill\":\"none\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"children\":[[\"$\",\"rect\",null,{\"width\":\"20\",\"height\":\"20\",\"rx\":\"20\",\"fill\":\"#56565A\"}],[\"$\",\"path\",null,{\"d\":\"M28.0407 26.5625C26.8508 24.5055 25.0172 23.0305 22.8774 22.3312C23.9359 21.7011 24.7582 20.741 25.2182 19.5983C25.6782 18.4555 25.7503 17.1934 25.4235 16.0057C25.0968 14.818 24.3892 13.7705 23.4094 13.0238C22.4296 12.2772 21.2319 11.8729 20.0001 11.8729C18.7682 11.8729 17.5705 12.2772 16.5907 13.0238C15.6109 13.7705 14.9033 14.818 14.5766 16.0057C14.2498 17.1934 14.322 18.4555 14.7819 19.5983C15.2419 20.741 16.0643 21.7011 17.1227 22.3312C14.9829 23.0297 13.1493 24.5047 11.9594 26.5625C11.9158 26.6336 11.8869 26.7128 11.8743 26.7953C11.8618 26.8778 11.8659 26.962 11.8864 27.0429C11.9069 27.1238 11.9434 27.1998 11.9938 27.2663C12.0442 27.3329 12.1073 27.3887 12.1796 27.4304C12.2519 27.4722 12.3318 27.499 12.4146 27.5094C12.4974 27.5198 12.5815 27.5134 12.6618 27.4908C12.7421 27.4682 12.8171 27.4296 12.8823 27.3776C12.9475 27.3255 13.0016 27.2608 13.0415 27.1875C14.5133 24.6437 17.1149 23.125 20.0001 23.125C22.8852 23.125 25.4868 24.6437 26.9587 27.1875C26.9985 27.2608 27.0526 27.3255 27.1178 27.3776C27.183 27.4296 27.258 27.4682 27.3383 27.4908C27.4187 27.5134 27.5027 27.5198 27.5855 27.5094C27.6683 27.499 27.7482 27.4722 27.8205 27.4304C27.8928 27.3887 27.956 27.3329 28.0063 27.2663C28.0567 27.1998 28.0932 27.1238 28.1137 27.0429C28.1342 26.962 28.1383 26.8778 28.1258 26.7953C28.1133 26.7128 28.0843 26.6336 28.0407 26.5625ZM15.6251 17.5C15.6251 16.6347 15.8816 15.7888 16.3624 15.0694C16.8431 14.3499 17.5264 13.7891 18.3258 13.458C19.1252 13.1269 20.0049 13.0402 20.8536 13.2091C21.7022 13.3779 22.4818 13.7945 23.0937 14.4064C23.7055 15.0183 24.1222 15.7978 24.291 16.6465C24.4598 17.4951 24.3732 18.3748 24.042 19.1742C23.7109 19.9737 23.1501 20.6569 22.4307 21.1377C21.7112 21.6184 20.8654 21.875 20.0001 21.875C18.8401 21.8737 17.728 21.4124 16.9078 20.5922C16.0876 19.772 15.6263 18.6599 15.6251 17.5Z\",\"fill\":\"#2C2C31\"}]]}]}],[\"$\",\"p\",null,{\"className\":\"max-[140px] text-sm leading-snug\",\"children\":[\"$\",\"span\",null,{\"className\":\"underline\",\"children\":\"Crie sua conta e salve suas memórias!\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"space-y-5\",\"children\":[[\"$\",\"$L8\",null,{\"src\":{\"src\":\"/_next/static/media/logo-spacetime.889c2ce4.svg\",\"height\":48,\"width\":161,\"blurWidth\":0,\"blurHeight\":0},\"alt\":\"SpaceTime\"}],[\"$\",\"div\",null,{\"className\":\"max-w-[420px] space-y-1\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"mt-5 text-[39px] font-bold leading-tight text-gray-50\",\"children\":\"Sua cápsula do tempo\"}],[\"$\",\"p\",null,{\"className\":\"mt-1 text-lg leading-relaxed\",\"children\":\"Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!\"}]]}],[\"$\",\"a\",null,{\"href\":\"#\",\"className\":\"inline-block\",\"children\":\"CADASTRAR LEMBRANÇA\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col bg-[url(../assets/background-stars.svg)] bg-cover p-16\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-1 items-center justify-center\",\"children\":[\"$\",\"p\",null,{\"className\":\"w-[360px] text-center leading-relaxed\",\"children\":[\"Você ainda não registrou nenhuma lembrança, comece a\",\" \",[\"$\",\"a\",null,{\"href\":\"/\",\"className\":\"underline hover:text-gray-50\",\"children\":\"criar agora\"}],\"!\"]}]}]}]]}],null],\"segment\":\"__PAGE__\"},\"styles\":[]}]}]}],null]}]]\n"])</script><script>self.__next_f.push([1,"4:[[[\"$\",\"meta\",null,{\"charSet\":\"utf-8\"}],[\"$\",\"title\",null,{\"children\":\"NLW Spacetime\"}],[\"$\",\"meta\",null,{\"name\":\"description\",\"content\":\"Uma cápsula do tempo construida com React, Next.js, TailwindCSS e Typescript\"}],null,null,null,null,null,null,null,null,[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],null,null,null,null,null,null,null,null,null,null,[]],[null,null,null,null],null,null,[null,null,null,null,null],null,null,null,null,[null,[[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"\\\\icon.png?762e6fd85d5f5001\",\"type\":\"image/png\",\"sizes\":\"2000x2000\"}]],[],null]]\n"])</script><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div></template></next-route-announcer><section style="z-index: 2147483647;"><template shadowrootmode="open"><style type="text/css">/*
+! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}::before,
+::after {
+  --tw-content: '';
+}/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}/*
+Remove the default font size and weight for headings.
+*/h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/a {
+  color: inherit;
+  text-decoration: inherit;
+}/*
+Add the correct font weight in Edge and Safari.
+*/b,
+strong {
+  font-weight: bolder;
+}/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}/*
+Add the correct font size in all browsers.
+*/small {
+  font-size: 80%;
+}/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}sub {
+  bottom: -0.25em;
+}sup {
+  top: -0.5em;
+}/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/button,
+select {
+  text-transform: none;
+}/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}/*
+Use the modern Firefox focus style for all focusable elements.
+*/:-moz-focusring {
+  outline: auto;
+}/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/:-moz-ui-invalid {
+  box-shadow: none;
+}/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/progress {
+  vertical-align: baseline;
+}/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/::-webkit-search-decoration {
+  -webkit-appearance: none;
+}/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}/*
+Add the correct display in Chrome and Safari.
+*/summary {
+  display: list-item;
+}/*
+Removes the default spacing and border for appropriate elements.
+*/blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}fieldset {
+  margin: 0;
+  padding: 0;
+}legend {
+  padding: 0;
+}ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}/*
+Prevent resizing textareas horizontally by default.
+*/textarea {
+  resize: vertical;
+}/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}/*
+Set the default cursor for buttons.
+*/button,
+[role="button"] {
+  cursor: pointer;
+}/*
+Make sure disabled buttons don't get the pointer cursor.
+*/:disabled {
+  cursor: default;
+}/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/img,
+video {
+  max-width: 100%;
+  height: auto;
+}/* Make elements with the HTML hidden attribute stay hidden by default */[hidden] {
+  display: none;
+}*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+</style><style type="text/css">@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap);</style><style type="text/css">.row[data-v-79cb7087]{display:flex;flex-wrap:wrap;margin-left:-8px;margin-right:-8px}[class*="grid-"][data-v-79cb7087]{padding:0 8px;margin-bottom:16px}.grid-1[data-v-79cb7087]{width:8.3333333333%}.grid-2[data-v-79cb7087]{width:16.6666666667%}.grid-23[data-v-79cb7087]{width:20%}.grid-3[data-v-79cb7087]{width:25%}.grid-4[data-v-79cb7087]{width:33.3333333333%}.grid-5[data-v-79cb7087]{width:41.6666666667%}.grid-6[data-v-79cb7087]{width:50%}.grid-7[data-v-79cb7087]{width:58.3333333333%}.grid-8[data-v-79cb7087]{width:66.6666666667%}.grid-9[data-v-79cb7087]{width:75%}.grid-10[data-v-79cb7087]{width:83.3333333333%}.grid-11[data-v-79cb7087]{width:91.6666666667%}.grid-12[data-v-79cb7087]{width:100%}*[data-v-79cb7087]{font-family:"Roboto", sans-serif;-moz-box-sizing:border-box;box-sizing:border-box;outline:none !important}p[data-v-79cb7087]{margin:0}.-scroll[data-v-79cb7087]::-webkit-scrollbar{width:8px}.-scroll[data-v-79cb7087]::-webkit-scrollbar-track{background:transparent;padding:2px}.-scroll[data-v-79cb7087]::-webkit-scrollbar-thumb{background-color:#ccc;border:3px solid transparent;border-radius:20px}.scroll[data-v-79cb7087]{scrollbar-width:thin;scrollbar-color:#ccc transparent}*[data-v-79cb7087]{font-family:"Montserrat", "Roboto", sans-serif}.font-bold[data-v-79cb7087]{font-weight:bold}.text-white[data-v-79cb7087]{color:white}.font_14[data-v-79cb7087]{font-size:14px}@keyframes pulse-79cb7087{0%{box-shadow:0 0 0 0px rgba(255,197,0,0.5)}70%{box-shadow:0 0 0 20px rgba(255,197,0,0)}100%{box-shadow:0 0 0 10px rgba(255,197,0,0)}}.animation[data-v-79cb7087]{animation-duration:0.8s;animation-fill-mode:both;animation-delay:0.6s}@keyframes fadeIn-79cb7087{from{opacity:0}to{opacity:1}}.fadeIn[data-v-79cb7087]{animation-name:fadeIn-79cb7087}@keyframes fadeInUp-79cb7087{from{opacity:0;transform:translate3d(0, 100%, 0)}to{opacity:1;transform:translate3d(0, 0, 0)}}.fadeInUp[data-v-79cb7087]{animation-name:fadeInUp-79cb7087}.global-template-container>.content[data-v-79cb7087]{background-color:#fff;border-radius:12px;box-shadow:0px 9px 24px rgba(0,0,0,0.25);display:grid;font-family:'Montserrat', 'Roboto', sans-serif;grid-template-columns:1fr;grid-template-areas:'header header' 'main main' 'footer footer';height:92vh;position:fixed;right:20px;top:20px;width:436px;z-index:3265656565656;font-size:16px}.global-template-container>.content[data-v-79cb7087]:not(.-search){grid-template-rows:50px minmax(auto, 75.5vh) minmax(75px, 10vh)}.global-template-container>.content.-search[data-v-79cb7087]{grid-template-rows:115px minmax(auto, 75.5vh) minmax(75px, 10vh)}.global-template-container>.content>.header[data-v-79cb7087]{grid-area:header;position:relative}.global-template-container>.content>.body[data-v-79cb7087]{grid-area:main;overflow-x:hidden;overflow-y:auto;position:relative;scroll-snap-type:x proximity}.global-template-container>.content>.body[data-v-79cb7087]::-webkit-scrollbar{-webkit-appearance:none;width:8px}.global-template-container>.content>.body[data-v-79cb7087]::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.15);border-radius:4px;-webkit-box-shadow:0 0 1px rgba(255,255,255,0.25)}.global-template-container>.content>.body>.box-skeleton[data-v-79cb7087]{display:flex;flex-direction:column;height:inherit;padding:20px}.global-template-container>.content>.body>.box-skeleton>.skeleton[data-v-79cb7087]{height:40px;margin-bottom:20px;width:100%}.global-template-container>.content>.body>.box-skeleton>.skeleton.-big[data-v-79cb7087]{height:200px}.global-template-container>.content>.footer[data-v-79cb7087]{grid-area:footer;position:relative}
+</style><div><!----></div></template></section></body></html>

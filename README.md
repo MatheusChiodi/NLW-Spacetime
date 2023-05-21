@@ -15,20 +15,3 @@ ReactJS
 NextJS(13.4)
 TailwindCSS
 Lucide React
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
